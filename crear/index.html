@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=MedievalSharp&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Mate+SC&family=MedievalSharp&display=swap");
     </style>
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <title>Página de Crear Partidas</title>
   </head>
   <body class="bg-dark">
-
     <header class="bg-primary py-3 text-center">
       <div class="d-flex justify-content-center align-items-center">
-        <img src="../img/jordmungandr.png" class="logo-bg" alt="Imagen del Logo en el Header"/>
+        <img
+          src="../img/jordmungandr.png"
+          class="logo-bg"
+          alt="Imagen del Logo en el Header"
+        />
         <h1 class="display-5 text-uppercase fw-bold">
           <a href="../index.html" class="text-decoration-none">
             <span class="text-info">VIN</span>
@@ -39,13 +42,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link text-secondary mx-2" href="../index.html">Inicio</a>
+              <a class="nav-link text-secondary mx-2" href="../index.html"
+                >Inicio</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary mx-2" href="../crear/index.html">Crear Partida</a>
+              <a class="nav-link text-secondary mx-2" href="../crear/index.html"
+                >Crear Partida</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary mx-2" href="../partidas/index.html">Unirte a una Partida</a>
+              <a
+                class="nav-link text-secondary mx-2"
+                href="../partidas/index.html"
+                >Unirte a una Partida</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -58,20 +69,35 @@
               >
                 Herramientas
               </a>
-              <div class="dropdown-menu p-3 bg-dark text-secondary" aria-labelledby="navbarDropdown">
+              <div
+                class="dropdown-menu p-3 bg-dark text-secondary"
+                aria-labelledby="navbarDropdown"
+              >
                 <div class="d-flex justify-content-around align-items-start">
                   <div class="text-center mx-2">
-                    <img src="../img/icon-person.png" class="mb-2 img-fluid icon" alt="Icono de una Persona"/>
+                    <img
+                      src="../img/icon-person.png"
+                      class="mb-2 img-fluid icon"
+                      alt="Icono de una Persona"
+                    />
                     <h5>Personajes</h5>
                     <p>Crea, administra y juega tus personajes</p>
                   </div>
                   <div class="text-center mx-2">
-                    <img src="../img/🦆 icon _book_.png" class="mb-2 img-fluid icon" alt="Icono de un Libro"/>
+                    <img
+                      src="../img/🦆 icon _book_.png"
+                      class="mb-2 img-fluid icon"
+                      alt="Icono de un Libro"
+                    />
                     <h5>Compendio</h5>
                     <p>Tu sistema hecho realidad</p>
                   </div>
                   <div class="text-center mx-2">
-                    <img src="../img/🦆 icon _compass_.png" class="mb-2 img-fluid icon" alt="Icono de una Brújula"/>
+                    <img
+                      src="../img/🦆 icon _compass_.png"
+                      class="mb-2 img-fluid icon"
+                      alt="Icono de una Brújula"
+                    />
                     <h5>Creador de Mapas</h5>
                     <p>Crea mapas para tus juegos</p>
                   </div>
@@ -79,7 +105,11 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-lg text-secondary" href="../login/index.html">Iniciar Sesión</a>
+              <a
+                class="nav-link btn btn-lg text-secondary"
+                href="../login/index.html"
+                >Iniciar Sesión</a
+              >
             </li>
           </ul>
         </div>
@@ -90,34 +120,68 @@
       <div class="card shadow-lg p-4 mx-auto">
         <h1 class="fw-bold text-secondary">Crear Partida</h1>
         <h2 class="text-secondary">Crea tus propios mundos y aventuras</h2>
-        <img src="../img/Mapa 1.png" class="img-fluid rounded my-3" alt="Imagen que muestra un Mapa del Mundo usado en una Aventura"/>
-        <button class="btn btn-secondary btn-lg" onclick="mensajeAlerta()">Crear Partida</button>
+        <img
+          src="../img/Mapa 1.png"
+          class="img-fluid rounded my-3"
+          alt="Imagen que muestra un Mapa del Mundo usado en una Aventura"
+        />
+        <button class="btn btn-secondary btn-lg" onclick="mensajeAlerta()">
+          Crear Partida
+        </button>
       </div>
     </main>
 
     <footer class="bg-primary text-light py-4">
       <div class="container">
         <div class="row text-center text-md-start align-items-center">
-          <div class="col-md-4 mb-3 mb-md-0 d-flex align-items-center justify-content-center">
-            <img src="../img/jordmungandr-footer.png" class="logo-footer-bg" alt="Imagen del Logo en el Footer"/>
+          <div
+            class="col-md-4 mb-3 mb-md-0 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="../img/jordmungandr-footer.png"
+              class="logo-footer-bg"
+              alt="Imagen del Logo en el Footer"
+            />
             <h5 class="text-uppercase fw-bold mb-0">
-              <span class="text-info">VIN</span><span class="text-info">LAND</span>
+              <span class="text-info">VIN</span
+              ><span class="text-info">LAND</span>
             </h5>
           </div>
-    
+
           <div class="col-md-4 mb-3 mb-md-0 d-flex justify-content-center">
             <p class="mb-2">
-              <img src="../img/facebook.svg" style="width: 30px;" alt="Imagen del Logo de Facebook"/>
-              <img src="../img/twitter.svg" style="width: 30px;" alt="Imagen del Logo de Twitter"/>
-              <img src="../img/instagram.svg" style="width: 30px;" alt="Imagen del Logo de Instagram"/>
-              <img src="../img/youtube.svg" style="width: 30px;" alt="Imagen del Logo de Youtube"/>
+              <img
+                src="../img/facebook.svg"
+                style="width: 30px"
+                alt="Imagen del Logo de Facebook"
+              />
+              <img
+                src="../img/twitter.svg"
+                style="width: 30px"
+                alt="Imagen del Logo de Twitter"
+              />
+              <img
+                src="../img/instagram.svg"
+                style="width: 30px"
+                alt="Imagen del Logo de Instagram"
+              />
+              <img
+                src="../img/youtube.svg"
+                style="width: 30px"
+                alt="Imagen del Logo de Youtube"
+              />
               Contáctanos
             </p>
           </div>
-    
+
           <div class="col-md-4 text-center text-md-end">
             <p class="mb-2">
-              <img src="../img/icon _copyright_.svg" class="me-1" style="width: 20px;" alt="Imagen del Logo Copyright"/>
+              <img
+                src="../img/icon _copyright_.svg"
+                class="me-1"
+                style="width: 20px"
+                alt="Imagen del Logo Copyright"
+              />
               2024-2024, vinland.com
             </p>
           </div>
@@ -133,4 +197,3 @@
     </script>
   </body>
 </html>
-
